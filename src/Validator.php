@@ -32,7 +32,7 @@ class Validator
         }
 
         if (isset($this->validationRules[$validationRule])) {
-            unset($validationRule);
+            unset($this->validationRules[$validationRule]);
         }
     }
 
